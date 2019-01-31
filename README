@@ -1,0 +1,18 @@
+Machine Learning Winter Term
+Domenick De Luca, Oberlin College c/o '21
+January 2019
+
+All code written by myself as part of a personal research project done during Winter Term (J-Term) at Oberlin College in January of 2019.
+
+Some code is better annotated that others, and some is more functional than others. 
+
+All problems here use either AI Gym (gym.openai.com) or NMIST as their source.
+
+acrobot_dqn.py ~ attempt to use Deep Q Learning (DQN) to solve the cartpole problem.
+acrobot_main.py ~ copy of cartpole_main.py using the acrobot problem instead, non-functional.
+cartpole_dqn.py ~ using DQN to solve the cartpole problem.
+cartpole_main.py ~ using a Tensorflow (TF) neural network to solve the cartpole problem.
+frozen_lake.py ~ using Q learning to solve the frozen lake problem. Functional, but does not solve.
+mnist_fashion_main.py ~ using supervised learning to fit a model to the MNIST fashion database.
+nchain.py ~ using Q learning to solve the NChain problem.
+taxi.py ~ using Q learning to solve the taxi problem.
